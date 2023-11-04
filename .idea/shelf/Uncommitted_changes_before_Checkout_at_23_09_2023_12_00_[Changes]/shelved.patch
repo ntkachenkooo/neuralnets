@@ -1,0 +1,15 @@
+Index: src/seminar1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+># Seminar 1\r\n# Numpy fundamentals\r\n\r\nimport numpy as np\r\n\r\n\r\ndef random_matrix(n: int) -> np.array:\r\n    \"\"\"\r\n    Make (n x n x 3) matrix with a random uniform distribution [0, 255]\r\n    array type must be uint8\r\n    :param n: matrix size\r\n    :return: random n x n x 3 matrix\r\n    \"\"\"\r\n    return np.random.randint(0, 255, size=(n, n, 3), dtype=np.uint8)\r\n\r\n\r\ndef broadcast_array(a: np.array, n: int) -> np.array:\r\n    \"\"\"\r\n    Broadcast 1D array to 2D matrix by repeating it n times\r\n    :param a: 1D numpy array\r\n    :param n: number of rows in output matrix\r\n    :return: 2D matrix\r\n    \"\"\"\r\n    return np.ones(n)\r\n\r\n\r\ndef inplace_operation(a: np.array, b: np.array) -> None:\r\n    \"\"\"\r\n    Compute ((a+b)*(-a/2)) in place (without copy)\r\n    :param a: matrix A\r\n    :param b: matrix B\r\n    :return: None\r\n    \"\"\"\r\n    a += b\r\n    a *= -1\r\n    a /= 2\r\n\r\n\r\ndef get_elements(a: np.array, indices: np.array) -> np.array:\r\n    \"\"\"\r\n    Given 2D matrix of elements and 1D array of indexes.\r\n    Return elements of each row in matrix with index i.\r\n    For example:\r\n     A = [\r\n     [0,1,2],\r\n     [3,4,5],\r\n     [6,7,8]\r\n     ]\r\n     i = [0, 1, 2]\r\n    Expected: get_elements(A, i) = [0, 4, 8]\r\n    :param a: 2D array\r\n    :param indices: 1D array\r\n    :return: 1D array of elements\r\n    \"\"\"\r\n    return a\r\n\r\n\r\ndef self_inners(a: np.array) -> np.array:\r\n    \"\"\"\r\n    Given 2D array A.shape = (m, n).\r\n    Compute inners along axis n and return (m, m) matrix\r\n    :param a:\r\n    :return: 2D array of inners product shape=(m, m)\r\n    \"\"\"\r\n    return a\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/seminar1.py b/src/seminar1.py
+--- a/src/seminar1.py	
++++ b/src/seminar1.py	
+@@ -63,3 +63,4 @@
+     :return: 2D array of inners product shape=(m, m)
+     """
+     return a
++
