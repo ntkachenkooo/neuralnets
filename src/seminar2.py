@@ -6,6 +6,9 @@ import numpy as np
 from src.test_utils import get_preprocessed_data, visualize_weights, visualize_loss
 
 
+
+
+
 def softmax(Z: np.array) -> np.array:
     """
     TODO 1:
