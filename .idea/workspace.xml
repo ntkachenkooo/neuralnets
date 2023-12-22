@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab0b4af2-1587-4edd-a09e-33c454bf113e" name="Changes" comment="hw5">
+    <list default="true" id="ab0b4af2-1587-4edd-a09e-33c454bf113e" name="Changes" comment="hw7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/seminar6.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar6.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/seminar7.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/seminar7.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,14 +157,32 @@
       <option name="project" value="LOCAL" />
       <updated>1703279409561</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hw5">
+      <option name="closed" value="true" />
+      <created>1703280233667</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703280233667</updated>
+    </task>
+    <task id="LOCAL-00007" summary="hw6">
+      <option name="closed" value="true" />
+      <created>1703280654777</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703280654777</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sem2" />
     <MESSAGE value="sem5" />
     <MESSAGE value="hw5" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5" />
+    <MESSAGE value="hw6" />
+    <MESSAGE value="hw7" />
+    <option name="LAST_COMMIT_MESSAGE" value="hw7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
