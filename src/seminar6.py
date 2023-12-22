@@ -16,7 +16,7 @@ PATH_TO_DATA_ZIP = 'data/raw/cats_dogs_train.zip'
 PATH_TO_DATA = 'data/raw/cats_dogs_train'
 PATH_TO_MODEL = 'models/model_6'
 BUCKET_NAME = 'neuralnets2023'
-YOUR_GIT_USER = 'Nina2002'
+YOUR_GIT_USER = 'ntkachenkooo'
 
 image_size = (180, 180)
 batch_size = 64
